@@ -1,4 +1,3 @@
-import express from "express";
 import { createServer } from "http";
 export const name = "webhook-Plugin";
 // 创建 Express 应用
