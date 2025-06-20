@@ -1,0 +1,11 @@
+{
+  "name": "webhook-plugin",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "基于Yunzai的webhook插件，用于接收webhook消息",
+  "main": "index.js",
+  "module": "index.js",
+  "keywords": ["webhook"],
+  "author": "mengluo04",
+  "license": "ISC"
+}
