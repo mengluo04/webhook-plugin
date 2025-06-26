@@ -1,11 +1,7 @@
-import { createServer } from "http";
 export const name = "webhook-Plugin";
 // 创建 Express 应用
 const app = Bot.express;
-const server = createServer(app);
 
-// 中间件：解析 JSON 请求体
-app.use(express.json());
 
 // 路由示例：GET 接口
 app.get("/webhook/test", (req, res) => {
